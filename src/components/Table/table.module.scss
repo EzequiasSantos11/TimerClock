@@ -1,0 +1,209 @@
+// Estilização do container que engloba toda a tabela.
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 640px;
+  width: 100%;
+  // max-width: 1216px;
+  margin: 2rem auto;
+  padding:  30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins" sans-serif;
+  overflow: hidden;
+  z-index: 994;
+  h1{
+      font-size: 20px;
+      font-weight: 500;
+      cursor: poiter;
+  }
+  h2{
+      font-size: 18px;
+      cursor: poiter;
+
+  }
+  p{
+      font-size: 14px;
+  }
+  //Estilização do cabeçalho da tabela.
+  header{
+      display: grid;
+      grid-template-columns: repeat(6,  1fr);
+      text-align: center;
+      align-items: center;
+      align-items: flex-end;
+      width: 100%;
+      #title{
+          padding-right: 40px;
+          padding-top: 20px;
+          align-items: center;
+          border-left: none;
+          position: relative;
+          h1{
+              cursor: pointer;
+          }
+
+
+      }
+
+      .item{
+          border-bottom: 1px solid #7bbcc7;
+
+          border-left: 1px solid rgba(255, 255, 255, 0.1);
+          width: 100%;
+          height: 100%;
+
+          padding-bottom:  11px;
+
+          h2{
+              margin-bottom: 26px;
+          }
+
+      }
+      .itemGrup{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding-top: 40px;
+          padding-bottom: 11px;
+          border-bottom: 1px solid #7bbcc7;
+          border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+          .subIitem{
+              display: flex;
+              font-size: 22px;
+              font-family: "Poppins";
+              p{
+                  font-size: 22px;
+                  font-family: "Poppins";
+              }
+          }
+      }
+  }
+  //Estilização das marcações ex: "UI Design" etc...
+  .mark{
+      display: flex;
+      justify-content: space-between;
+      p{
+          margin:0 20px;
+      }
+
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    .loading{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 38px;
+      font-weight: 700;
+      margin-top: 10rem;
+    }
+  }
+}
+
+
+.viewMore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  // max-width: 1216px;
+  margin: 2rem auto;
+  padding:  30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins" sans-serif;
+  position: relative;
+  z-index: 994;
+  h1{
+      font-size: 20px;
+      font-weight: 500;
+      cursor: poiter;
+  }
+  h2{
+      font-size: 18px;
+      cursor: poiter;
+
+  }
+  p{
+      font-size: 14px;
+  }
+  //Estilização do cabeçalho da tabela.
+  header{
+      display: grid;
+      grid-template-columns: repeat(6,  1fr);
+      text-align: center;
+      align-items: center;
+      align-items: flex-end;
+      width: 100%;
+      #title{
+          padding-right: 40px;
+          padding-top: 20px;
+          align-items: center;
+          border-left: none;
+          position: relative;
+          h1{
+              cursor: poiter;
+          }
+
+
+      }
+
+      .item{
+          border-bottom: 1px solid #7bbcc7;
+
+          border-left: 1px solid rgba(255, 255, 255, 0.1);
+          width: 100%;
+          height: 100%;
+
+          padding-bottom:  11px;
+
+          h2{
+              margin-bottom: 26px;
+          }
+
+      }
+      .itemGrup{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding-top: 40px;
+          padding-bottom: 11px;
+          border-bottom: 1px solid #7bbcc7;
+          border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+          .subIitem{
+              display: flex;
+              font-size: 22px;
+              font-family: "Poppins";
+              p{
+                  font-size: 22px;
+                  font-family: "Poppins";
+              }
+          }
+      }
+  }
+  //Estilização das marcações ex: "UI Design" etc...
+  .mark{
+      display: flex;
+      justify-content: space-between;
+      p{
+          margin:0 20px;
+      }
+
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+}
